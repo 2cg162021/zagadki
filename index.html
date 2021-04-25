@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <title>JS innerHTML</title>
+    <script>
+        function z1() {
+            document.getElementById("z1").innerHTML = "Zależy od pozycji";
+        }
+
+        function z2() {
+            document.getElementById("z1").innerHTML = "Tu znajdziesz odpowiedź";
+        }
+
+        function z1v() {
+            document.getElementById("z1v").innerHTML = "Armata z dwoma kulkami";
+        }
+
+        function z2v() {
+            document.getElementById("z1v").innerHTML = "Tu znajdziesz odpowiedź";
+        }
+
+        function z1v2() {
+            document.getElementById("z1v2").innerHTML = "Nie miałby żadnego tytułu";
+        }
+
+        function z2v2() {
+            document.getElementById("z1v2").innerHTML = "Tu znajdziesz odpowiedź";
+        }
+    </script>
+</head>
+
+<body>
+    <h2>JS posługiwanie się innerHTML</h2>
+    <h3>Zagadki logiczne:</h3>
+
+
+    <p>
+        Co jest lepsze seks czy szachy?
+    </p>
+    <input type="button" value="zobacz odpowiedź" onclick="z1()">
+    </br>
+    </br>
+    <div id="z1">Tu znajdziesz odpowiedź</div>
+    </br>
+    </br>
+    <input type="button" value="ukryj odpowiedź" onclick="z2()">
+
+
+
+    <p>
+        Co to za zagadka dwie kuleczki i armatka?
+    </p>
+    <input type="button" value="zobacz odpowiedź" onclick="z1v()">
+    </br>
+    </br>
+    <div id="z1v">Tu znajdziesz odpowiedź</div>
+    </br>
+    </br>
+    <input type="button" value="ukryj odpowiedź" onclick="z2v()">
+
+
+
+    <p>
+        Gdyby Tottenham robił film, jakby się nazywał
+    </p>
+    <input type="button" value="zobacz odpowiedź" onclick="z1v2()">
+    </br>
+    </br>
+    <div id="z1v2">Tu znajdziesz odpowiedź</div>
+    </br>
+    </br>
+    <input type="button" value="ukryj " onclick="z2v2()">
+
+
+</body>
